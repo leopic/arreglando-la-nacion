@@ -1,0 +1,20 @@
+{
+  "name": "Arreglando la nacion",
+  "version": "1.0",
+  "description": "Arregla el diseño de los sitios del grupo nacion.",
+  "content_scripts": [ {
+    "css": [ "arreglos.css" ],
+    "js": ["background.js"],
+    "matches": [ "http://www.nacion.com/*" ],
+    "runat": "document_start"
+  } ],
+  "permissions" : [
+    "tabs", "http://www.nacion.com/*"
+  ],
+  "icons" : {
+    "48" : "icon-19.png",
+    "48" : "icon-48.png",
+    "128" : "icon-128.png"
+  },
+  "manifest_version": 2
+}
