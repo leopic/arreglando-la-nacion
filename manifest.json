@@ -1,6 +1,6 @@
 {
   "name": "Arreglando la nacion",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Arregla el diseño de los sitios del grupo nacion.",
   "content_scripts": [ {
     "css": [ "arreglos.css" ],
