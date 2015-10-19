@@ -4,7 +4,7 @@
   "description": "Arregla el diseño de los sitios del grupo nacion.",
   "content_scripts": [ {
     "css": [ "arreglos.css" ],
-    "js": ["background.js"],
+    "js": ["arreglos.js"],
     "matches": [ "http://www.nacion.com/*" ],
     "runat": "document_start"
   } ],
