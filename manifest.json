@@ -12,7 +12,7 @@
     "tabs", "http://www.nacion.com/*"
   ],
   "icons" : {
-    "48" : "icon-19.png",
+    "16" : "icon-19.png",
     "48" : "icon-48.png",
     "128" : "icon-128.png"
   },

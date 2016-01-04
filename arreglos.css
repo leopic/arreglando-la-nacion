@@ -14,9 +14,11 @@
 #nav-top,
 #paywall-cookie,
 #paywall-notification,
+*[id*="ad-clicker-"],
 *[id*="creative_"],
 *[id*="eplAdDiv"],
 *[id*="ns_ad"],
+*[class*="_kalooga_grid"],
 .cp-tools.md.clr,
 .gn_footer,
 .gna-corp-onsite-bar,
@@ -119,7 +121,7 @@
 
 .md-news-latest .lst
 {
-    height: 465px;
+    height: 465px!important;
 }
 
 .cp-reltags .tag

@@ -1,3 +1,8 @@
+// Evitando errores para navegadores viejos
+var log = function(params) {
+    console && console.log(params);
+};
+
 // Removiendo paywalls
 var checkAndRemoveElem = function(id, interval) {
     var modal = document.getElementById(id);
@@ -37,7 +42,7 @@ function readCookie(name) {
 
 function eraseCookie(name) {
     createCookie(name, "", - 1);
-    console.log('mejorandolanacion: erasedCookie %s', name);
+    log('mejorandolanacion: erasedCookie %s', name);
 }
 
 // El nombre del cookie es un hash, entonces en vez de adivinarlo,
