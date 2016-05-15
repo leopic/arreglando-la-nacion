@@ -1,4 +1,5 @@
 /* Elementos eliminados */
+#banner-suscripcion,
 #comentarios,
 #comments,
 #conteo_notas_paywall,
@@ -12,28 +13,38 @@
 #LNA_paywall_modal,
 #nacion-login-bar,
 #nav-top,
+#navbar-web-header,
+#pageTools,
 #paywall-cookie,
 #paywall-notification,
 *[id*="ad-clicker-"],
+*[id*="banner"],
 *[id*="creative_"],
 *[id*="eplAdDiv"],
 *[id*="ns_ad"],
-*[class*="_kalooga_grid"],
+.body-nws .show-comments,
+.boxleft.suscribase.sus-fx-box,
 .cp-tools.md.clr,
 .gn_footer,
 .gna-corp-onsite-bar,
 .LNA_background_paywall,
 .md-adn_radio,
 .md-breakingnews-wrapper,
+.md-columnist .info .sub-area,
+.md-columnist .info .summary,
+.md-columnist ul,
 .md-fxrate .source,
 .md-wgt-twitter,
+.nwscontainer .body-nws .md-columnist .mg-20,
 .ob_org_header,
 .ob_what,
 .onsite-bar,
 .pg-aux #pageTools,
 .pg-bkn-trail-id,
 .rg-ad,
-.social-links
+.show-new,
+.social-links,
+body .kalooga_grid
 { display: none!important; }
 
 /* Arreglando la letra */
@@ -122,6 +133,10 @@
 .md-news-latest .lst
 {
     height: 465px!important;
+}
+
+#md-news-latest .bd {
+    height: 300px!important;
 }
 
 .cp-reltags .tag
