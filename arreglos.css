@@ -44,6 +44,7 @@
 .rg-ad,
 .show-new,
 .social-links,
+.md-topmost.md.sk-md1.module-tabs,
 body .kalooga_grid
 { display: none!important; }
 
@@ -132,7 +133,7 @@ body .kalooga_grid
 
 .md-news-latest .lst
 {
-    height: 465px!important;
+    height: 500px!important;
 }
 
 #md-news-latest .bd {
