@@ -1,20 +1,28 @@
 {
   "name": "Arreglando la nacion",
-  "version": "1.0.2",
-  "description": "Arregla el diseño de los sitios del grupo nacion.",
+  "version": "1.0.3",
+  "description": "Arregla el diseño de los sitios del grupo nacion, además remueve las restricciones de contenido.",
   "content_scripts": [ {
-    "css": [ "arreglos.css" ],
-    "js": ["arreglos.js"],
-    "matches": [ "http://www.nacion.com/*" ],
+    "css": [
+      "css/arreglando-tipografia.css",
+      "css/escondiendo-elementos.css",
+      "css/otros.css"
+    ],
+    "js": [
+      "js/arreglos.js"
+    ],
+    "matches": [
+      "http://www.nacion.com/*"
+    ],
     "runat": "document_start"
   } ],
-  "permissions" : [
+  "permissions": [
     "tabs", "http://www.nacion.com/*"
   ],
-  "icons" : {
-    "16" : "icon-19.png",
-    "48" : "icon-48.png",
-    "128" : "icon-128.png"
+  "icons": {
+    "16": "img/icon-19.png",
+    "48": "img/icon-48.png",
+    "128": "img/icon-128.png"
   },
   "manifest_version": 2
 }

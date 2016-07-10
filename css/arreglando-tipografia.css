@@ -1,0 +1,76 @@
+/* Arregla el horrible tipo de letra */
+
+.AR_1 .strip-rec-link-title,
+.cp-relations .rel-entry .rel,
+.cp-relations .rel-entry,
+.cp-reltags .tag,
+.dateline,
+.footnote,
+.lst-relinfo,.nws .brief,
+.main-search .search-field,
+.mce-body .mce,
+.mce-body b.mce .mce,
+.mce-body b.mce,
+.mce-body em.mce .mce,
+.mce-body em.mce,
+.mce-body i.mce .mce,
+.mce-body i.mce,
+.mce-body p.mce,
+.mce-body strong.mce .mce,
+.mce-body strong.mce,
+.md .read-more .lnk,
+.md-block-special .slice-brief,
+.md-block-special .slice-caption,
+.md-blogs .lst,.nws .kicker,
+.md-columnist-content-author,
+.md-columnist-content-title,
+.md-editorial .bd,
+.md-editorial .brief,
+.md-item-eco-currency-rates .item,
+.md-news-latest .lst,
+.md-news-today .headline,
+.md-news-topic .brief .lnk .dest,
+.md-news-topic .lst .lnk,
+.md-print-edition .lst,
+.md-scr-news .hed .kicker,
+.md-scr-news .hed,
+.md-topmost .lst .lnk,
+.nws .headline,
+.ob_org_header,
+.pane-jigsaw .mtx .hed,
+.pane-jigsaw .mtx .kicker,
+.pg-story .pg-bkn-dateline,
+.pg-story .pg-bkn-headline,
+.pg-story .pg-bkn-nutfold li,
+.pg-story .pg-bkn-nutfold p,
+.showlist-item .hed,
+.sk-md1 .hd .title
+{
+    font-family: sans-serif!important; font-weight: 400!important;
+}
+
+.mce-body em.mce .mce,
+.mce-body em.mce,
+.mce-body i.mce .mc,
+.mce-body i.mce
+{
+    font-style: italic;
+}
+
+.footnote
+{
+    font-size: 14px;
+}
+
+.mce-body b.mce .mce,
+.mce-body b.mce,
+.mce-body strong.mce .mce,
+.mce-body strong.mce
+{
+    font-weight:600!important;
+}
+
+.mce-body a.mce
+{
+    font-weight: bold!important;
+}

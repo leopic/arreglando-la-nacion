@@ -1,0 +1,67 @@
+/* Arreglos generales */
+
+.footnote
+{
+    color: #999;
+    border: none;
+}
+
+.AR_1.ob_strip_container
+{
+    border: none!important;
+}
+
+.md-news-latest .lst
+{
+    height: 500px!important;
+}
+
+#md-news-latest .bd {
+    height: 300px!important;
+}
+
+.cp-reltags .tag
+{
+    padding: 5px;
+}
+
+.pg-story .pg-head
+{
+    border: none;
+    padding-top: 0;
+}
+
+body #main
+{
+    margin-top:0!important;
+}
+
+.md-news-topic,
+.md-news-topic.border-bottom
+{
+    border-width: 1px;
+}
+
+#heading .g-faux
+{
+    background: none!important;
+    padding-left: 0!important;
+}
+
+#header.rg-header
+{
+    border: none!important;
+    margin-top: 5px!important;
+    position: relative;
+    z-index: 999999;
+}
+
+#header .nav-bar
+{
+    position: fixed!important;
+}
+
+#main
+{
+    margin-top: 55px!important;
+}
