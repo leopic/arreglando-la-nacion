@@ -69,3 +69,8 @@ body #main
 #content-author-1 {
     margin-left: 0!important;
 }
+
+.md-listing-item.lnc-listing-item.nodisp.md {
+    display: block!important;
+    visibility: visible!important;
+}
