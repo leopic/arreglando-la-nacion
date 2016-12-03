@@ -1,6 +1,6 @@
 {
   "name": "Arreglando la nacion",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Arregla el diseño de los sitios del grupo nacion, además remueve las restricciones de contenido.",
   "content_scripts": [ {
     "css": [
