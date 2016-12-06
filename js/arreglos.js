@@ -1,9 +1,9 @@
-// Evitando errores para navegadores viejos
-var log = function(params) {
-    console && console.log(params);
+// Evitando errores para navegadores sin consola
+var log = function() {
+    console && console.log.apply(console, arguments);
 };
 
-// Removiendo paywalls
+// Removiendo los elementos que sirven como paywalls
 var checkAndRemoveElem = function(id, interval) {
     var modal = document.getElementById(id);
 
@@ -17,7 +17,7 @@ var unPayWall = setInterval(checkAndRemoveElem, 5, 'LNA_paywall_modal', unPayWal
     dosPayWall = setInterval(checkAndRemoveElem, 5, 'paywall-cookie', dosPayWall),
     tresPayWall = setInterval(checkAndRemoveElem, 5, 'conteo_notas_paywall', tresPayWall);
 
-// Cookies
+// Remueve los cookies que llevan un registro de la cantidad de historias leidas
 // http://stackoverflow.com/questions/2144386/javascript-delete-cookie
 function createCookie(name, value, days) {
     var expires = '';
@@ -42,7 +42,7 @@ function readCookie(name) {
 
 function eraseCookie(name) {
     createCookie(name, "", - 1);
-    log('mejorandolanacion: erasedCookie %s', name);
+    log('aln: removimos cookie: %s', name);
 }
 
 // El nombre del cookie es un hash, entonces en vez de adivinarlo,
@@ -59,5 +59,3 @@ for (var j = 0; j < allCookies.length; j++) {
         value['gnpw-allowed'] && eraseCookie(name);
     } catch (e) {}
 }
-
-eraseCookie('lanacion_session_id');
