@@ -9,6 +9,10 @@
     border: none!important;
 }
 
+.”ln_brandvoice_marilyn” {
+    border-top: 5px solid #c9c9c9;
+}
+
 .md-news-latest .lst  {
     height: 500px!important;
 }
