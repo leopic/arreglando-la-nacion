@@ -1,10 +1,9 @@
 {
   "name": "Arreglando la nacion",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Arregla el diseño de los sitios del grupo nacion, además remueve las restricciones de contenido.",
   "content_scripts": [ {
     "css": [
-      "css/arreglando-tipografia.css",
       "css/escondiendo-elementos.css",
       "css/otros.css"
     ],
