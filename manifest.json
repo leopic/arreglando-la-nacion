@@ -1,6 +1,6 @@
 {
   "name": "Arreglando la nacion",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Arregla el diseño de los sitios del grupo nacion, además remueve las restricciones de contenido.",
   "content_scripts": [ {
     "css": [
@@ -11,7 +11,8 @@
       "js/arreglos.js"
     ],
     "matches": [
-      "http://www.nacion.com/*"
+      "http://www.nacion.com/*",
+      "https://www.nacion.com/*"
     ],
     "runat": "document_start"
   } ],
