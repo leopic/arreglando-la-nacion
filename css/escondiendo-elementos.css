@@ -1,6 +1,5 @@
 /*!* Elementos escondidos *!*/
 
-.story #bottom-content,
 #bottom-furniture,
 #metered_overlay,
 .brandvoice-chain,
@@ -8,8 +7,14 @@
 .custom-column-footer,
 .g-overlay,
 .login-nav,
+.pb-ad-container,
 .pb-f-global-blank-html,
 .pb-f-global-sharebar,
+.pb-f-taboola-tag,
 .pb-f-viafoura-comments,
-.subscribe_new
+.scrollbox-popup,
+.sharebar-wrapper,
+.story #bottom-content,
+.subscribe_new,
+.viafoura.inline
 { display: none!important; }

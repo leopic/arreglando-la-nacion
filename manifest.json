@@ -1,7 +1,7 @@
 {
   "name": "Arreglando la nacion",
-  "version": "1.2.1",
-  "description": "Arregla el diseño de los sitios del grupo nacion, además remueve las restricciones de contenido.",
+  "version": "1.2.2",
+  "description": "Arregla el diseño de los sitios del grupo nacion, además remueve las restricciones de lectura de contenido.",
   "content_scripts": [ {
     "css": [
       "css/escondiendo-elementos.css",
