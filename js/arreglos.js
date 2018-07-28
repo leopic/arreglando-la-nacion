@@ -59,3 +59,10 @@ for (var j = 0; j < allCookies.length; j++) {
         value['gnpw-allowed'] && eraseCookie(name);
     } catch (e) {}
 }
+
+var jQueryLoaded = typeof jQuery !== 'undefined';
+
+if (jQueryLoaded) {
+    // Remueve la restricción para seleccionar texto
+    $(document).off('mousedown');
+}
