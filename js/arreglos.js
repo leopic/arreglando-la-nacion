@@ -46,3 +46,8 @@ for (var j = 0; j < allCookies.length; j++) {
 if (conteoDeCookies) {
     console.log('aln: removimos %i cookies', conteoDeCookies);
 }
+
+// Permite seleccionar texto
+if ($ !== undefined) {
+    $(document).off('mousedown');
+}
