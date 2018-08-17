@@ -26,7 +26,7 @@ function readCookie(name) {
 }
 
 function eraseCookie(name) {
-    createCookie(name, "", - 1);
+    createCookie(name, "", -1);
     conteoDeCookies++;
 }
 
@@ -40,14 +40,21 @@ for (var j = 0; j < allCookies.length; j++) {
     try {
         value = decodeURIComponent(value.replace(/\+/g, " "));
         eraseCookie(name);
-    } catch (e) {}
+    } catch (e) {
+    }
 }
 
 if (conteoDeCookies) {
     console.log('aln: removimos %i cookies', conteoDeCookies);
 }
 
-// Permite seleccionar texto
-if ($ !== undefined) {
-    $(document).off('mousedown');
-}
+window.onload = function () {
+    window.setTimeout(function () {
+        try {
+            if (jQuery !== undefined) {
+                jQuery(document).off('mousedown');
+            }
+        } catch (e) {
+        }
+    }, 5000);
+};
