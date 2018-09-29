@@ -81,8 +81,16 @@ var removerArticulosRepetidos = function () {
     }
 };
 
-window.onload = function () {
+$(window).on('load', function() {
     removerCookies();
     permitirSeleccionarTexto();
     removerArticulosRepetidos();
-};
+
+    if ($('html').hasClass('story')) {
+        $.get(location.href, function(data) {
+            var el = $(data).find('#article-body');
+            $('#article-body').replaceWith(el.html());
+            $("img.image-lazy").lazyload();
+        });
+    }
+});

@@ -1,6 +1,6 @@
 {
   "name": "Arreglando la nacion",
-  "version": "1.2.4",
+  "version": "1.3.0",
   "description": "Arregla el diseño de los sitios del grupo nacion, además remueve las restricciones de lectura de contenido.",
   "content_scripts": [ {
     "css": [
@@ -8,6 +8,8 @@
       "css/otros.css"
     ],
     "js": [
+      "js/jquery.js",
+      "js/jquery-lazyload.js",
       "js/arreglos.js"
     ],
     "matches": [
@@ -17,7 +19,9 @@
     "runat": "document_start"
   } ],
   "permissions": [
-    "tabs", "http://www.nacion.com/*"
+    "tabs",
+    "http://www.nacion.com/*",
+    "https://www.nacion.com/*"
   ],
   "icons": {
     "16": "img/icon-19.png",
