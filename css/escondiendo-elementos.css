@@ -1,6 +1,7 @@
 /*!* Elementos escondidos *!*/
 
 #bottom-furniture,
+#gdpr-cookie-message,
 #metered_overlay,
 #sticky_paywallcounter,
 .brandvoice-chain,
@@ -8,11 +9,14 @@
 .custom-column-footer,
 .g-overlay,
 .login-nav,
+.newsletter-recomendation-wraper,
 .pb-ad-container,
 .pb-f-global-blank-html,
+.pb-f-global-newsletter-subscription,
 .pb-f-global-sharebar,
 .pb-f-taboola-tag,
 .pb-f-viafoura-comments,
+.recomendation-form.subscribe-horizontal,
 .scrollbox-popup,
 .sharebar-wrapper,
 .story #bottom-content,
